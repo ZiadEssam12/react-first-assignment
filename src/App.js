@@ -18,7 +18,7 @@ import {
 } from "react-router-dom";
 
 function App() {
-  let routers = createHashRouter([
+  let routers = createBrowserRouter([
     {
       path: "",
       element: <Layout />,
