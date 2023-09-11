@@ -1,0 +1,18 @@
+.home {
+  background-color: var(--main-color);
+}
+
+.home .avatar {
+  width: 260px;
+  height: 260px;
+}
+
+.home h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.seperator .line {
+  height: 4px;
+  width: 80px;
+}

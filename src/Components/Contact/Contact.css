@@ -1,0 +1,25 @@
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.Contact input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.Contact button {
+  background-color: var(--main-color) !important;
+  border-color: transparent;
+  width:125px;
+  color:white;
+}
+
+.Contact label{
+    color: var(--main-color) !important;
+    transition: margin 0.5s;
+}
+
+.Contact label.active{
+    margin-top:-40px;
+}
